@@ -17,10 +17,10 @@ export const DevCard = () => {
     return "🔴 Avançado";
   }
 
-  if (!user) return <p className="text-center mt-10 text-blue-950 font-bold">Loading...</p>;
+  if (!user) return <p className="text-center mt-10 text-blue-950 font-bold animate-pulse">Loading...</p>;
 
   return (
-    <div className="w-80 h-70 mx-auto mt-10 p-6 bg-white shadow-lg rounded-xl text-center space-y-4">
+    <div className="w-80 h-90 mx-auto mt-10 p-15 bg-white shadow-lg rounded-xl text-center space-y-4 animate-fade-in-up">
       <img
         src={user.avatar_url}
         alt="avatar"
