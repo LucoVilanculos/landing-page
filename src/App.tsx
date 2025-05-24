@@ -2,8 +2,9 @@ import { useState, useEffect } from "react";
 
 import { Header } from "./components/header";
 import { Footer } from "./components/footer";
-import { SplashScreen } from "./components/splash";
 import { DevCard } from "./components/devcard";
+import { SplashScreen } from './components/splahscreen';
+
 
  
 

@@ -23,7 +23,7 @@ export const SplashScreen = () => {
             className="animate-spin-slow h-20 lg:h-70 mb-6"
             />
             <h1 className="text-[2rem] lg:text-7xl animate-fade-in-up mb-4">
-                Bem-vindo ao Task Manager
+                Bem-vindo ao meu ReposUpdate
             </h1>
             <br />
             <p className="text-xl lg:text-4xl animate-pulse">Carregando...</p>
