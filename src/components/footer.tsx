@@ -3,7 +3,7 @@ import { LinkedinLogoIcon } from "@phosphor-icons/react";
 import { FacebookLogoIcon } from "@phosphor-icons/react";
 import { InstagramLogoIcon } from "@phosphor-icons/react";
 
-import type { FooterProps } from "../types/allprops";
+import type { FooterProps } from "../types/footer";
 
 export const Footer = (props: FooterProps) => {
     return (
